@@ -1,0 +1,219 @@
+
+*{box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+       background: rgb(2,0,36);
+       background: linear-gradient(to right, rgb(6, 3, 58) 0%, rgb(1, 13, 56) 40%, rgb(6, 27, 97) 68%);
+    }
+    
+    .banner{
+        background-image: url("img/kitanabanner.png");
+        background-repeat: no-repeat;
+    
+    }
+    
+    
+    
+    .frase{
+       color: aliceblue;
+       font-size: 30px;
+       padding: 50px;
+       
+    }
+    
+    
+    .menubody {
+       font-family: Arial, sans-serif;
+       margin: 0;
+    }
+    
+    
+    .menu {
+       padding: 20px;
+       background-color: transparent;
+    }
+    
+    
+    .menu a {
+       color: white;
+       padding: 14px 20px;
+       text-decoration: none;
+       display: inline-block;
+    }
+    
+    
+    .menu a:hover {
+       background-color: #ddd;
+       color: black;
+    }
+    
+    
+    
+    
+    .img{
+       float: right;
+       display: flex;
+       height: 600px;
+    }
+    
+    
+    
+    
+    button {
+       margin-top: 50px;
+       padding: 16px 30px;
+       border: 0;
+       border-radius: 100px;
+       background-color: #201dc0;
+       color: #f1f1f1;
+       font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    
+    }
+    
+    button:hover {
+       background-color: #6fc5ff;
+       box-shadow: 0 0 20px #6fc5ff50;
+       transform: scale(1.1);
+    }
+    
+    button:active {
+       background-color: #3d94cf;
+       transition: all 0.25s;
+       -webkit-transition: all 0.25s;
+       box-shadow: none;
+       transform: scale(0.98);
+    }
+    
+    html{
+       scroll-behavior: smooth;
+    }
+    
+    button{
+       margin-left: 0px;
+    }
+    
+    
+    /* CARTA */
+    .flip-card {
+       background-color: transparent;
+       width: 390px;
+       height: 500px;
+       perspective: 1000px;
+       font-family: sans-serif;
+       float: right;
+       margin-top: 50px;
+       margin-left: 20px;
+    }
+    
+    .title{
+       padding: 15px;
+       font-size: 30px;
+    }
+    
+    .flip-card-inner {
+       position: relative;
+       width: 100%;
+       height: 100%;
+       text-align: center;
+       transition: transform 0.8s;
+       transform-style: preserve-3d;
+    }
+    
+    .flip-card:hover .flip-card-inner {
+       transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+       box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+       position: absolute;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: left;
+       width: 100%;
+       height: 100%;
+       -webkit-backface-visibility: hidden;
+       backface-visibility: hidden;
+       border: 1px solid rgb(38, 6, 182);
+       border-radius: 1rem;
+    }
+    
+    .flip-card-front {
+       background: linear-gradient(120deg, rgb(6, 5, 99) 60%, rgb(41, 29, 204) 88%,
+       rgb(5, 13, 126) 40%, rgba(70, 17, 156, 0.603) 48%);
+       color: rgb(255, 255, 255);
+    }
+    
+     .flip-card-back {
+       background: linear-gradient(120deg, rgb(6, 5, 99) 60%, rgb(41, 29, 204) 88%,
+       rgb(5, 13, 126) 40%, rgba(70, 17, 156, 0.603) 48%);
+       color: white;
+       transform: rotateY(180deg);
+    }
+    
+    /* FIM CARTA */
+    
+    /*BIOGRFIA */
+    .bio{
+       margin-top: 10px;
+       text-align: left;
+       padding: 50px;
+       font-size: 25px;
+       color: #DFDFDF;
+    }
+    
+    
+    .bio h1{
+       color: #4745e3;
+    }
+    
+    
+    .textobio{
+       display:inline-block;
+       width: 70%;
+       text-align:justify;
+       padding: 50px;
+       font-size: 25px;
+       color: #DFDFDF;
+       
+    }
+    
+    .textobio h1{
+       color: #6fc5ff;
+    }
+    
+    .video{
+       padding: 50px;
+       color: #d7d7d7;
+    }
+    
+    /* rodape */
+    .rodape {
+       margin-top: 50px;
+       background-color: #1d1d1d;
+       color: white;
+       text-align: center;
+       padding: 20px;
+       position: relative;
+       bottom: 0;
+       width: 100%;
+       background-size: cover;
+       height: 200p;
+     }
+     
+     .rodape p {
+       margin: 5px 0;
+     }
+    
+     .rd1{
+       float: right;
+    }
+    
+    .rd2{
+       float: left;
+     }
